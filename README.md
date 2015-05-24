@@ -1,5 +1,6 @@
 # Getting-and-Cleaning-Data-Project
 Submitted materials for the week 3 project
+This document details the steps in the script "run_analysis.R" and how they are connected. Background information, starting data and a detailed descriptions of all variables in the script can be found in the document CodeBook.md. 
 
 ## Workflow
 1. Place the “UCI HAR Dataset” directory containing the study data into the working directory.
@@ -18,3 +19,5 @@ Submitted materials for the week 3 project
 
 8. The column names (ie variables or experimental measurements) are changed to give more descriptive names.
 
+##Reference
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012

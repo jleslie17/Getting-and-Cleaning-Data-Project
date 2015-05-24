@@ -70,3 +70,5 @@ names(dataMeans) <- sub("bodybody", "body", names(dataMeans))
 names(dataMeans) <- sub("bodyangular", "angular", names(dataMeans))
 names(dataMeans) <- sub("std", "std dev", names(dataMeans))
 names(dataMeans) <- sub("\\()", "", names(dataMeans))
+
+dataMeans

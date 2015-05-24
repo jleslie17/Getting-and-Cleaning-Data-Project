@@ -16,7 +16,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 A full description of the experimental design and the measured and calculated variables can be found in the README.txt and features_info.txt files, respectively. This data includes the raw measured data as well as processed data.
 
 ### Output
-I have written a script (“LeslieScript.R”) that reads in the processed experimental data and generates a tidy data set listing the mean values for 79 variables for each subject in each of six activities (walking, walking up stairs, walking down stairs, sitting, standing and laying down). The final, tidy dataset is a dataframe containing 180 observations (30 subjects x 6 activities) and 81 variables (the 79 aforementioned variables plus columns for subject identification number and the experimental activity).
+I have written a script (“run_analysis.R”) that reads in the processed experimental data and generates a tidy data set listing the mean values for 79 variables for each subject in each of six activities (walking, walking up stairs, walking down stairs, sitting, standing and laying down). The final, tidy dataset is a dataframe containing 180 observations (30 subjects x 6 activities) and 81 variables (the 79 aforementioned variables plus columns for subject identification number and the experimental activity).
 
 ### Script overview
 A more detailed desciption of the script can be found in the README.md file in this repository. 

@@ -70,13 +70,14 @@ featuresFiltered = features.ix[:,1][matches]
 featuresFiltered = featuresFiltered[featuresAngle == False]
 
 dataFeaturesSub = dataFeatures[featuresFiltered]
+dataFeaturesSub.head(6)
 
 # 7 Combine index and observation data
 combinedData = pd.merge(bothIndex2, dataFeaturesSub, 
                         left_index=True, right_index=True)
 del combinedData['group']
-dataMeans = combinedData.reset_index().groupby(['subject_ID','activity_description']).mean()
-
+dataMeans = combinedData.groupby(['subject_ID','activity_description']).mean()
+dataMeans.ix[:40,:4]
 
 
 
